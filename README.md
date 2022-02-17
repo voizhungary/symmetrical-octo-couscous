@@ -25,7 +25,7 @@ To switch between production or development environment, use the `NODE_ENV` env 
 NODE_ENV=development
 ```
 
-In development environment and additional endpoint is available on the app.
+In development environment an additional endpoint is available on the app.
 
 ## Scripts
 
