@@ -73,4 +73,4 @@ Fork the repository and send a pull request after completing the followings:
 
 - Use Github Actions to automate the process. When a pull request is opened the whole workflow for the app (don't worry about the database here) must run again. The same should happen in case if a pull request gets updated (for example previous deploy failed, so a new fix is pushed to the branch).
 
-- Please provide a production and a development setup as well (incorporate the above mentioned `NODE_ENV` variable). What kind of differences would you make between the two setups and why?
+- Please provide a production and a development setup as well (incorporate the above mentioned `NODE_ENV` variable). The production deploy should happen when the pull request is merged. What kind of differences would you make between the two setups and why?
